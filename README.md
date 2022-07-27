@@ -106,7 +106,11 @@ grails <<env>>* run-app
 ```
 
 ```bash
+# default port: 8080
 grails run-app
+grails run-app -port=8090
 grails run-app -https
 grails test run-app
 ```
+
+- Gradle files comes when we create the application
