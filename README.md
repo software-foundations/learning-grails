@@ -1,5 +1,7 @@
 # learning-grails
 
+- Full stack framework
+
 - Grails use the model/view/controller paradigm
 
 - Use groovy (java subset)
@@ -105,6 +107,7 @@ grails create-app project-folder
 grails <<env>>* run-app
 ```
 
+- It has hot-reload when modify files
 ```bash
 # default port: 8080
 grails run-app
