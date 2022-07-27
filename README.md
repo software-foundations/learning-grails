@@ -43,6 +43,7 @@
 ```bash
 sudo apt update
 sudo apt install openjdk-11-jre
+sudo apt-get install openjdk-8-jre
 ```
 
 - Switch java version
@@ -64,7 +65,23 @@ curl -s "https://get.sdkman.io" | bash
 
 - Install grails
 ```bash
-sdkman install grails 4.0.4
+sdk install grails 2.3.4
+sdk default grails 2.3.4
+sdk use grails 2.3.4
+```
+
+- Install groovy 2.1 (<a href="https://gist.github.com/ishults/82a68897d85122562f65">Groovy for grails version</a>)
+```bash
+sdk install groovy 2.1.9
+sdk default groovy 2.1.9
+sdk use groovy 2.1.9
+```
+
+- Install gradle
+
+```bash
+sdk install gradle <version>
+
 ```
 
 - Create grails project (<a href="https://docs.grails.org/3.1.1/ref/Command%20Line/create-app.html">Documentation<a/>)
