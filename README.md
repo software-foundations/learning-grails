@@ -36,3 +36,33 @@
 - Both on top of Java Virtual Machine
 
 - Grails is prepacked with tomcat java application server
+
+# Installation
+
+-  Install java jdk
+```bash
+sudo apt update
+sudo apt install openjdk-11-jre
+```
+
+- Switch java version
+```bash
+sudo update-alternatives --config javac
+sudo update-alternatives --config java
+```
+
+- Check java version
+```bash
+java -version
+javac -version
+```
+
+- Install sdkman
+```bash
+curl -s "https://get.sdkman.io" | bash
+```
+
+- Install grails
+```bash
+sdkman install grails 4.0.4
+```
