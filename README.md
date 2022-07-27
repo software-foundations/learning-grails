@@ -66,3 +66,30 @@ curl -s "https://get.sdkman.io" | bash
 ```bash
 sdkman install grails 4.0.4
 ```
+
+- Create grails project (<a href="https://docs.grails.org/3.1.1/ref/Command%20Line/create-app.html">Documentation<a/>)
+
+```bash
+grails create-app [name] [--skip-wrapper] [--profile] [profile name] [--features] [FEATURE NAMES]
+```
+
+```bash
+# way 01
+cd project-folder/
+grails create-app --inplace
+
+# way 02
+grails create-app project-folder
+```
+
+- Run application (<a href="https://docs.grails.org/latest/ref/Command%20Line/run-app.html">Documentation</a>)
+
+```bash
+grails <<env>>* run-app
+```
+
+```bash
+grails run-app
+grails run-app -https
+grails test run-app
+```
